@@ -1,0 +1,585 @@
+body {
+    background: #fff;
+}
+
+main{
+    padding: 1rem;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+h1, 
+h2,
+h3,h4 {
+    font-family: 'Ubuntu', sans-serif;
+}
+.inner-container {
+    padding: 0 0rem;
+}
+a{
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+header {
+    background-color: #fff;
+    padding-top: 1rem;
+    height: 80px;   
+    font-family: 'tofinomedium_personal';
+    box-shadow: 0.5px 1px 10px lightgrey;
+    position: sticky;
+    top: 0px;
+}
+
+.flex-container svg{
+width: 6rem;
+height: 4rem;
+}
+
+.flex-container {
+    margin-top: -2rem;
+}
+
+.show-nav {
+    max-height: 100vh;
+}
+
+.toggle-btn {
+    background-color: #fff; 
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.main-menu{
+    align-items: left;
+}
+
+.main-menu li{
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    padding: 0.3rem;
+}
+
+.toggle-btn svg{
+    
+    width: 4rem;
+    margin-top: 11px;
+    padding-right: 0.5rem;    
+}
+
+.toggle-btn:hover{
+    color: #da6a00;
+    background-color: #fff;   
+}
+
+.flex-container img{
+    width: 5rem;
+    height: 3rem; 
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle-btn{
+    color: #fff;
+}
+
+nav {
+    position: absolute;
+    top: 4.8125rem;
+    left: 0;
+    background-color: #fff;
+    width: 100vw;
+    max-height: 0;
+    overflow: hidden;
+    position: absolute;
+    transition: max-height 1s ease-in-out;
+}
+
+ul.main-menu a {
+    padding-right: 1rem;
+    text-decoration: none;
+    display: block;
+    color: black;
+    text-transform: uppercase;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: start;
+    font-size: 18px;   
+}
+
+/* ul.main-menu a:hover{
+
+} */
+
+.search-btn svg{
+    width: 2rem;
+    height: 1.4rem;
+}
+
+.search{
+    display: flex;
+}
+
+.search-btn{
+background-color:#eb0917;
+border-radius: 0px 5px 5px 0px;
+}
+
+.search svg{
+    color: #fff;
+    fill: #fff;
+    padding-top: 0.2rem;
+}
+
+.srch-form input{
+    border-radius: 5px 0 0 5px;
+}
+
+.experiences h1{
+    padding-bottom: 1rem ;
+}
+
+.experiences p{
+    margin-bottom: 1rem;
+}
+
+.search{
+    justify-content: center;
+}
+
+input{
+    width: 100%;
+}
+
+.get-started {
+    padding-top: 2rem;
+}
+
+.get-started h2{
+    padding-bottom: 2rem;
+}
+
+.get-started svg{
+    width: 5rem;
+}
+
+.cards{
+    padding: 1rem;
+    background-color:#f7f7f5;
+    margin-bottom: 1.5rem;
+    padding-bottom: 4rem;
+}
+
+.cards-one{  
+    display: block;
+    gap: 1rem;
+    background-color: #fff;
+}
+
+.cards h3{
+    margin: 1rem 0;
+}
+
+.cards svg{
+    color: red;
+}
+
+.btn{
+    background-color: #eb0917;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 7px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.button-c{
+   align-items: center;
+}
+
+.explore-lessons{
+    padding-top: 1rem;
+    overflow: scroll;
+    padding-bottom: 1rem;
+}
+
+.explore-lessons h2{
+    padding-bottom: 1rem;
+}
+
+
+.flex-one{
+   display: flex;    
+   margin-bottom: 1rem;
+}
+
+.flex-two{
+    display: flex;
+}
+
+.footer-list a{
+    font-weight: bold;
+}
+
+
+.explore-lessons section{
+    background-color: #f7f7f5;
+    padding: 1rem;
+    text-align: center;
+    flex: 0 0 24rem;
+    height: 15rem;
+    margin-right: 1rem;
+}
+
+.explore-lessons section p{
+    padding: 1rem;
+}
+
+.flex-one section:first-of-type{
+    background-color: #0d7d79;
+    color: #fff;
+}
+
+.flex-one section:first-of-type h4{
+    color: #fff;
+}
+
+.card h4{
+    color: #0d7d79;
+}
+
+.learning{
+    background-color: #f7f7f5;
+    padding-top: 2rem;
+}
+
+.learning h3{
+    font-size: 33px;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+.learning p:first-of-type{
+    padding-bottom: 1rem;
+}
+
+span{
+ font-weight: bold;
+}
+
+.learning div{
+    background-color: #f7f7f5;
+    box-shadow: 0.5px 1px 5px lightgrey; 
+}
+
+.learning h4{
+    padding-left: 1rem;
+}
+
+.learning p{
+    padding-left: 1rem;
+}
+
+.load-btn{
+    background-color: #0d7d79;
+    border: none;
+    color: #fff;
+    margin-left: 4rem;
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+input[type="submit"]{
+    width: 30%;
+    background-color: #fff;
+    margin-top: 0.3rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.card p:last-of-type{
+    font-weight: bold;
+}
+
+.flex-one .card p:first-of-type{
+    font-weight:100;
+}
+
+.community{
+    background-color: #eb0917;
+    padding: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    color: #fff;
+}
+
+.email-foot input{
+    border-radius: 5px;
+    border: none;
+    padding: 0.2rem;
+    color: grey;  
+}
+
+.community h4{
+    padding-bottom: 1rem;
+    font-size: 28px;
+}
+
+.community p{
+    padding-bottom: 1.5rem;
+}
+
+.foot-img{
+    width: 5rem;
+    height: 3rem; 
+    padding-left: 1rem;
+}
+
+footer{
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
+.footer-list a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-list li{
+    text-align: end;
+    padding-right: 1rem;
+}
+
+/*///////////volunteer///////////*/
+.volunteer h1{
+    font-size: 2.81rem;
+}
+
+.volunteer-cards{
+    background-color:#f7f7f5;
+    margin-top: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.volunteer-cards h2{
+    padding-bottom: 1rem;
+    font-size: 22px;
+    color: #0d7d79;
+}
+
+.volunteer-cards p{
+    padding-bottom:1rem ;
+}
+
+.learning-card div {
+    margin-bottom: 1rem;
+}
+
+.parallax div{
+    background-image: url(../img/splash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallax div{
+    min-height: 40vh;
+    padding-left: 15%;
+    padding-top: 5rem;
+}
+
+.parallax h2{
+    color: #fff;
+}
+
+.radio-div{
+    display: inline;
+}
+
+@media screen and (min-width:46.875rem){
+    .cards-one{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cards{
+        width: 45%;
+    }
+
+    .learning-card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:2%
+    }
+
+    .learning-card div{
+        width: 40%;
+    }
+
+    .community-input{
+        display: flex;
+    }
+
+    .submit-btn input{
+        width: 100%;
+        margin-top: 0%; 
+        height: 27px;
+        border-radius: 0 5px 5px 0;
+    }
+
+    .email-foot input{
+        width: 33rem;
+        height: 27px;
+        border-radius: 5px 0 0 5px; 
+        color: grey;   
+        border-right: 1px solid black;
+    }
+
+    .footer-list{
+        flex-wrap: wrap;
+        justify-content: right;
+        display: flex;  
+    }
+
+    .foot-list{
+       width: 30%;
+       margin-left: 70%;
+    }
+
+    .volunteer-card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .volunteer-cards{
+        width: 40%;
+        margin: 1rem;
+    }
+    .volunteer-head{
+        width: 40%;
+        margin-bottom: 1rem;
+    }
+
+    .parallax div {
+        min-height: 30vh;
+        padding-left: 15%;
+        padding-top: 5rem;
+    }
+
+    .volunteer h1{
+        font-size: 5rem;
+    }
+
+    .parallax h2{
+        padding-top: 4rem;
+        font-size: 3rem;
+    }
+
+}
+
+@media screen and (min-width:72.5rem){
+    .toggle-btn{
+        display: none;
+    }
+    header nav {
+        max-height: 100vh;
+        width: fit-content;
+        position: static;
+        overflow: visible;
+    }
+
+    .experiences {
+        width: 50%;
+    }
+
+    ul.main-menu {
+        display: flex;
+        gap: 1rem;
+       
+    }
+    .main-menu li {
+        border: 0;
+    }
+
+    .volunteer-card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .volunteer-cards{
+        width: 40%;
+        margin: 1rem;
+    }
+
+    .volunteer {
+        display: flex;
+        gap: 2%;
+    }
+
+    .cards{
+        width: 30%;
+    }
+
+    .cards-one{
+        justify-content: center;
+    }
+
+    .card{
+        width: 23%;
+    }
+
+    .explore-lessons section{
+        flex:none;
+    }
+
+    .learning-card div{
+       width: 21%;
+    }
+
+    .footer-list{
+        flex-wrap: wrap;
+        justify-content: right;
+        display: flex;     
+    }
+
+    .foot-list{
+       width: 20%;
+       margin-left: 70%;
+    }
+
+    nav{
+        margin-top: 1rem;
+    }
+
+    .inner-container a{
+        margin-top: 1rem;
+    }
+
+    h1{
+        font-size: 4.375rem;
+    }
+
+    h2{
+        font-size: 2.5rem;
+    }
+}
+
+
+
+
